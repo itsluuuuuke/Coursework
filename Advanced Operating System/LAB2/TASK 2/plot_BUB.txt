@@ -1,0 +1,10 @@
+set xlabel "\"Time\" in R/W operations"
+set ylabel "Different pages"
+set title "Working set"
+plot "ws_BUB.txt" using 1:3 title "BUB" with lines
+set term png
+set output "ws_BUB.png"
+replot
+set term x11
+pause -1 "Press ENTER"
+exit

@@ -1,0 +1,20 @@
+student name: Jiayun He
+
+files included:
+
+count:
+－－－－	makefile
+－－－－	main.c
+－－－－	count_M.c
+－－－－	count_M.h
+－－－－	readchar_R.c
+－－－－	readchar_R.h	
+－－－－	text.txt	
+
+ushell:
+－－－－	makefile
+－－－－	example.c
+－－－－	parser.c
+－－－－	parser.h
+
+

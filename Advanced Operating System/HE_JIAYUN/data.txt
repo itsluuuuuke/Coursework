@@ -1,0 +1,44 @@
+Name: HE JIAYUN
+
+Description of blocks to be graded:
+
+1.
+using calculate_ws to generate the working set of bubble sort and insertion sort separately,
+100000 of the interval, and 1000 randomly generated numbers. And use the gnuplot to print 
+out the corresponding graph.
+
+files: 
+1)ws_BUB.txt
+2)ws_INS.txt
+
+//passed as argument to the gnuplot
+3)plot_BUB.txt
+4)plot_INS.txt
+
+//graphics printed
+5)ws_BUB.png
+6)ws_INS.png  
+
+2.
+
+Random replacement, LRU replacement, FIFO replacement and FIFO with 2nd chance replacement, and Optimal replacement.
+
+files(which has been modified):
+ 
+7)makefile  //slight change added to the all:
+8)sim_paging.h  //four fields were added for tracking data in lru
+9)sim_pag_random.c
+10)sim_pag_lru.c
+11)sim_pag_fifo.c
+12)sim_pag_fifo2ch.c
+
+/****Files attached but with no modifications****/
+13)sort.h
+14)sort.c
+15)calculate_ws.c
+16)gen_trace.c
+17)count_ops.c
+18)sim_pag_main.c
+
+
+

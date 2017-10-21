@@ -1,0 +1,7 @@
+unsigned int: 4 bytes, 32 bits
+double: 8 bytes, 64 bits
+long: 8 bytes, 64 bits
+long long : 8 bytes, 64 bits
+char : 1 bytes, 8 bits
+float : 4 bytes, 32 bits
+struct timeval : 16 bytes, 128 bits
